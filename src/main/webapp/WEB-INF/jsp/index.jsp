@@ -16,8 +16,8 @@
   
         function connect() {  
             if ('WebSocket' in window){  
-                  console.log('Websocket supported');  
-                  socket = new WebSocket('ws://localhost:8080/SpringSocket/websocket');  
+                  console.log('Websocket supported');
+                  socket = new WebSocket('ws://192.168.10.45:8080/SpringSocket/websocket?username=123456');
   
                   console.log('Connection attempted');  
   
