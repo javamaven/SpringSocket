@@ -23,8 +23,8 @@ public class MyInterceptor extends HttpSessionHandshakeInterceptor {
     @Override  
     public boolean beforeHandshake(ServerHttpRequest request,  
             ServerHttpResponse response, WebSocketHandler wsHandler,  
-            Map<String, Object> attributes) throws Exception {  
-    	System.out.println("GOMA ===> Before Handshake");
+            Map<String, Object> attributes) throws Exception {
+        System.out.println("GOMA ===> Before Handshake");
 
         if (request instanceof ServletServerHttpRequest) {
 
